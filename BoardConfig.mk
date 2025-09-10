@@ -148,4 +148,4 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_USE_NEW_MINADBD := true
 
 # Version/Maintainer
-TW_DEVICE_VERSION := SavedByLight Pre-Release
+TW_DEVICE_VERSION := SavedByLight-Stable
