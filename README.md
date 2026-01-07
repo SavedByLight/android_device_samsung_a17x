@@ -1,7 +1,4 @@
-# Android device tree for samsung SM-A166B (a16x)
-
-# Contributions
- - [bnwnanat11](https://github.com/bnwnanat11) - Recovery Tester
+# Android device tree for samsung SM-A176B (a17x)
 
 ```
 #

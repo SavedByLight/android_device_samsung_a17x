@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/samsung/a16x
+DEVICE_PATH := device/samsung/a17x
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -186,7 +186,7 @@ OF_UNBIND_SDCARD_F2FS := 1
 # Skyhawk Recovery - ONLY FOR SKYHAWK RECOVERY PROJECT BUILDING
 SHRP_DARK := true
 SHRP_FLASH_MAX_BRIGHTNESS := 500
-SHRP_DEVICE_CODE := a16x
+SHRP_DEVICE_CODE := a17x
 SHRP_FLASH := 1
 
 # PBRP- ONLY FOR PITCH BLACK RECOVERY PROJECT BUILDING

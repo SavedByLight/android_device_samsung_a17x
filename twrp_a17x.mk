@@ -18,25 +18,18 @@ $(call inherit-product-if-exists, vendor/pb/config/common.mk)
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-# Inherit from a16x device
+# Inherit from a17x device
 $(call inherit-product, device/samsung/a16x/device.mk)
 
-PRODUCT_DEVICE := a16x
-PRODUCT_NAME := twrp_a16x
+PRODUCT_DEVICE := a17x
+PRODUCT_NAME := twrp_a17x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A166B
+PRODUCT_MODEL := SM-A176B
 PRODUCT_MANUFACTURER := samsung
 
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a16x/recovery/root,recovery/root)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a17x/recovery/root,recovery/root)
 
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
-
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="a16xxx-user 13 TP1A.220624.014 A166BXXS3AYA2 release-keys"
-
-BUILD_FINGERPRINT := samsung/a16xxx/a16x:13/TP1A.220624.014/A166BXXS3AYA2:user/release-keys
