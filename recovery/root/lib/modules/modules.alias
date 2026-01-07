@@ -4,8 +4,6 @@ alias of:N*T*Csamsung,exynos-usbdrd-phy phy_exynos_usbdrd_super
 alias of:N*T*Csamsung,exynos-usbdrd-phyC* phy_exynos_usbdrd_super
 alias of:N*T*Csamsung,exynos-ehld ehld
 alias of:N*T*Csamsung,exynos-ehldC* ehld
-alias of:N*T*Csamsung,exynos-is-actuator-gt9778 is_actuator_gt9778
-alias of:N*T*Csamsung,exynos-is-actuator-gt9778C* is_actuator_gt9778
 alias hid:b0003g*v0000044Fp0000B300 hid_tmff
 alias hid:b0003g*v0000044Fp0000B304 hid_tmff
 alias hid:b0003g*v0000044Fp0000B320 hid_tmff
@@ -24,6 +22,8 @@ alias of:N*T*Csamsung,exynos-acpm-ipc exynos_acpm
 alias of:N*T*Csamsung,exynos-acpm-ipcC* exynos_acpm
 alias of:N*T*Csamsung,exynos-acpm exynos_acpm
 alias of:N*T*Csamsung,exynos-acpmC* exynos_acpm
+alias of:N*T*Csamsung,exynos-is-actuator-dw9818 is_actuator_dw9818
+alias of:N*T*Csamsung,exynos-is-actuator-dw9818C* is_actuator_dw9818
 alias platform:exynos-itmon exynos_itmon_v2
 alias of:N*T*Csamsung,exynos-itmon-v2 exynos_itmon_v2
 alias of:N*T*Csamsung,exynos-itmon-v2C* exynos_itmon_v2
@@ -79,9 +79,6 @@ alias of:N*T*Csamsung,exynos-uart exynos_tty
 alias of:N*T*Csamsung,exynos-uartC* exynos_tty
 alias of:N*T*Csamsung,exynos-tzasc exynos_tzasc
 alias of:N*T*Csamsung,exynos-tzascC* exynos_tzasc
-alias i2c:sm5714 mfd_sm5714
-alias of:N*T*Csiliconmitus,sm5714mfd mfd_sm5714
-alias of:N*T*Csiliconmitus,sm5714mfdC* mfd_sm5714
 alias of:N*T*Csamsung,exynos-acpm-mfd-bus acpm_mfd_bus
 alias of:N*T*Csamsung,exynos-acpm-mfd-busC* acpm_mfd_bus
 alias of:N*T*Cfocaltech,fts focaltech_ts_ft3519
@@ -183,6 +180,7 @@ alias mdio:0000000000000111110000001111???? smsc
 alias mdio:0000000000000111110000010001???? smsc
 alias of:N*T*Csamsung,exynos-mct-v3 exynos_mct_v3
 alias of:N*T*Csamsung,exynos-mct-v3C* exynos_mct_v3
+alias i2c:usbpd-s2mf301 pdic_s2mf301
 alias of:N*T*Csamsung,sec_auth_sle956681 sec_auth_sle956681
 alias of:N*T*Csamsung,sec_auth_sle956681C* sec_auth_sle956681
 alias platform:samsung-is-camif-dma fimc_is
@@ -281,7 +279,9 @@ alias of:N*T*Csamsung,exynos-ectC* ect_parser
 alias hid:b0003g*v00006253p00000100 hid_twinhan
 alias platform:sec-reboot sec_reboot
 alias hid:b0003g*v00000518p00000002 hid_ezkey
-alias i2c:usbpd-sm5714 pdic_sm5714
+alias acpi*:SMO2104:* nfc_stm_sec
+alias of:N*T*Cst,st21nfc nfc_stm_sec
+alias of:N*T*Cst,st21nfcC* nfc_stm_sec
 alias of:N*T*Csamsung,mipi-phy-m4s4-top phy_exynos_mipi
 alias of:N*T*Csamsung,mipi-phy-m4s4-topC* phy_exynos_mipi
 alias of:N*T*Csamsung,mipi-phy-m4s4-mod phy_exynos_mipi
@@ -319,6 +319,8 @@ alias hid:b0003g*v000004B4p0000BCA1 hid_cypress
 alias hid:b0003g*v000004B4p0000ED81 hid_cypress
 alias hid:b0003g*v000004B4p00000001 hid_cypress
 alias hid:b0003g*v000004B4p000007B1 hid_cypress
+alias of:N*T*Csamsung,sensor-flash-s2mf301 is_flash_s2mf301
+alias of:N*T*Csamsung,sensor-flash-s2mf301C* is_flash_s2mf301
 alias hid:b0003g*v00001B96p00000001 hid_ntrig
 alias hid:b0003g*v00001B96p00000003 hid_ntrig
 alias hid:b0003g*v00001B96p00000004 hid_ntrig
@@ -361,6 +363,8 @@ alias hid:b0003g*v000004F2p00000418 hid_chicony
 alias hid:b0003g*v000004F2p00001123 hid_chicony
 alias hid:b0003g*v000004F2p00001236 hid_chicony
 alias hid:b0003g*v000004F2p00001421 hid_chicony
+alias of:N*T*Cgoodix,fingerprint fingerprint
+alias of:N*T*Cgoodix,fingerprintC* fingerprint
 alias hid:b0003g*v0000046Ap00000023 hid_cherry
 alias hid:b0003g*v0000046Ap00000027 hid_cherry
 alias of:N*T*Csamsung,exynos-decon exynos_drm
@@ -406,6 +410,7 @@ alias hid:b0003g*v00000925p00008866 hid_sjoy
 alias hid:b0003g*v00000B43p00000003 hid_sjoy
 alias of:N*T*Csamsung,exynos-cpu-profiler exynos_cpu_profiler
 alias of:N*T*Csamsung,exynos-cpu-profilerC* exynos_cpu_profiler
+alias i2c:s2mf301 mfd_s2mf301
 alias platform:abox-synchronized-ipc snd_soc_samsung_abox_sync
 alias of:N*T*Csamsung,abox-synchronized-ipc snd_soc_samsung_abox_sync
 alias of:N*T*Csamsung,abox-synchronized-ipcC* snd_soc_samsung_abox_sync
@@ -474,8 +479,6 @@ alias hid:b0003g*v00000810p00000001 hid_pl
 alias hid:b0003g*v00000810p00000002 hid_pl
 alias hid:b0003g*v00000E8Fp00000003 hid_pl
 alias hid:b0003g*v00000F30p00000111 hid_pl
-alias of:N*T*Csamsung,sensor-flash-sm5714 is_flash_sm5714
-alias of:N*T*Csamsung,sensor-flash-sm5714C* is_flash_sm5714
 alias of:N*T*Csamsung,exynos-mif-profiler exynos_mif_profiler
 alias of:N*T*Csamsung,exynos-mif-profilerC* exynos_mif_profiler
 alias hid:b0003g*v00000766p00000204 hid_topseed
@@ -649,7 +652,6 @@ alias hid:b0003g*v000006A3p00000CFA hid_saitek
 alias hid:b0003g*v00000738p00001709 hid_saitek
 alias hid:b0003g*v000006A3p00000CD0 hid_saitek
 alias hid:b0003g*v00000738p00001713 hid_saitek
-alias i2c:sec-nfc nfc_slsi_sec
 alias of:N*T*Csamsung,hardlockup-watchdog hardlockup_watchdog
 alias of:N*T*Csamsung,hardlockup-watchdogC* hardlockup_watchdog
 alias hid:b0003g*v00001AE7p00009001 hid_speedlink
